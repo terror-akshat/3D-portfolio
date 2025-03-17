@@ -19,12 +19,12 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/genuine-kataifi.git
+   git clone https://github.com/your-repo/3D-portfolio.git
    ```
 
 2. Navigate into the project directory:
    ```sh
-   cd genuine-kataifi
+   cd 3D-portfolio
    ```
 
 3. Install dependencies:
