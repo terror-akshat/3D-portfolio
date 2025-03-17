@@ -1,8 +1,59 @@
-# React + Vite
+# Personal-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Deployment
+[View Live Project](https://genuine-kataifi-c7a7ee.netlify.app/)
 
-Currently, two official plugins are available:
+## Tech Stack
+- **React.js** - Frontend framework
+- **Tailwind CSS** - Styling and utility-first CSS framework
+- **Three.js** - 3D rendering and WebGL graphics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Setup
+
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Steps to Run the Project Locally
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/genuine-kataifi.git
+   ```
+
+2. Navigate into the project directory:
+   ```sh
+   cd genuine-kataifi
+   ```
+
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+   or
+   ```sh
+   yarn install
+   ```
+
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+   or
+   ```sh
+   yarn dev
+   ```
+
+5. Open your browser and go to:
+   ```
+   http://localhost:3000
+   ```
+
+## Features
+- Responsive UI with Tailwind CSS
+- Interactive 3D elements using Three.js
+- Smooth animations and transitions
+
+## License
+This project is licensed under the MIT License.
