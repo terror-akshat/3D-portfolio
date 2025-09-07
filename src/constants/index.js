@@ -33,6 +33,9 @@ import {
   express,
   tripguide,
   threejs,
+  Screenshot,
+  swasthcareImage,
+  vboardMeetImage
 } from "../assets";
 
 const navLinks = [
@@ -106,10 +109,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Redis",
+    icon: threejs,
+  },
   {
     name: "git",
     icon: git,
@@ -255,6 +258,66 @@ const mlProjects = [
 
 const projects = [
   {
+    name: "SwasthCare",
+    description:
+      "Full-stack hospital management system with role-based access for Admin and Master. Features include patient registration, OPD/IPD management, ward & bed tracking, billing, and report/document uploads.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "red-text-gradient",
+      },
+      {
+        name: "REST API",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: vboardMeetImage,
+    demo_link: "https://grand-mooncake-4b0873.netlify.app/",
+    source_code_link: "https://github.com/terror-akshat/SwasthCare",
+  },
+  {
+    name: "Board Meet",
+    description:
+      "Real-time video conferencing and collaborative whiteboard application. Enables multiple participants to join video calls, draw and annotate on a shared whiteboard, and communicate seamlessly using WebRTC and WebSocket.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WebSocket",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "WebRTC",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: swasthcareImage, 
+    demo_link: "https://charming-chebakia-38d373.netlify.app", 
+    source_code_link: "https://github.com/terror-akshat/FOSS-HACK-2025-Team-Elite-Kanpur",
+  },
+  {
     name: "Journey-Junction",
     description:
       "Web-based platform that allows users to unlock there right place for traveling. It helps user for there booking system, near about best hotels and proivde the path. ",
@@ -274,6 +337,28 @@ const projects = [
     ],
     image: junction,
     demo_link: "https://cool-torte-631e9a.netlify.app",
+    source_code_link: "https://github.com/terror-akshat",
+  },
+  {
+    name: "VisionBoard",
+    description:
+      "Web-based platform that allows users to unlock there right place for traveling. It helps user for there booking system, near about best hotels and proivde the path. ",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "WebSocket",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WebRTC",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Screenshot,
+    demo_link: "https://charming-chebakia-38d373.netlify.app/",
     source_code_link: "https://github.com/terror-akshat",
   },
   {

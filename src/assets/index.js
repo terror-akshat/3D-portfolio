@@ -40,6 +40,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import me from "./me.jpg";
+import Screenshot  from"./Screenshot.png"
+
+import swasthcareImage from "./swasthcareImage.png";
+import vboardMeetImage from "./vboardMeetImage.png";
 
 export {
   boston,
@@ -72,6 +76,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  Screenshot,
   typescript,
   threejs,
   meta,
@@ -80,5 +85,7 @@ export {
   tesla,
   carrent,
   jobit,
+  swasthcareImage,
   tripguide,
+  vboardMeetImage
 };

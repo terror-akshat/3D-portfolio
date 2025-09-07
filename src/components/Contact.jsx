@@ -32,13 +32,13 @@ const Contact = () => {
     //
     emailjs
       .send(
-        "service_t9xt8ei",
+        "service_phjk9os",
         "template_zvigz6c",
         {
           from_name: form.name,
           to_name: "Akshat",
           from_email: form.email,
-          to_email: "www.akshatagarwal123klj@gmail.com",
+          to_email: "akshat.agarwal9292@gmail.com",
           message: form.message,
         },
         "4HLV3McGMyLiDofcs"
@@ -69,7 +69,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in Touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        
         <form
           ref={formRef}
           onSubmit={handleSubmit}

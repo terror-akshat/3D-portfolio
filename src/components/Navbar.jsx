@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 // import { navlinks } from "../constants/index";
 import { logo, menu, close } from "../assets";
 import { navLinks } from "../constants";
-
+import resume from "../Resume/Akshat_resume.pdf"
 const Navbar = () => {
   const [Active, setActive] = useState("");
   const [Toggle, setToggle] = useState(false);
@@ -44,6 +44,11 @@ const Navbar = () => {
                 </li>
               );
             })}
+            <a href={resume} download="Your_Name_Resume.pdf">
+              <button className="px-4 py-2 bg-blue-500 text-white rounded">
+                Download Resume
+              </button>
+            </a>
           </ul>
           <div className="sm:hidden flex flex-1 justify-end items-center">
             <img
